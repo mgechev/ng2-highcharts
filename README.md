@@ -23,14 +23,18 @@ A running example on how to use this library can be found at [AngularShowcase](h
 ## Using with [Angular2-webpack-starter](https://github.com/AngularClass/angular2-webpack-starter)
 
 * Install required packages : `highcharts` and `ng2-highcharts`
+
   ```
   npm install --save highcharts ng2-highcharts
   ```
 * Import `Ng2Highcharts` in the component
+
   ```
   import { Ng2Highcharts } from 'ng2-highcharts/ng2-highcharts';
   ```
+
 * Include `Ng2Highcharts` in the directives
+
   ```
   @Component({
     template: require('./template.html'),
@@ -42,7 +46,9 @@ A running example on how to use this library can be found at [AngularShowcase](h
 
   }
   ```
+
 * Prepare Chart Data
+
   ```
   private chartData = {
     chart: {
@@ -74,10 +80,13 @@ A running example on how to use this library can be found at [AngularShowcase](h
     ]
   };
   ```
+
 * Update template with the required directive
+
   ```
   <div [ng2-highcharts]="chartData"></div>
   ```
+
 ## Changelog
 
 Look at [changelog page](CHANGELOG.md)
@@ -87,8 +96,6 @@ Look at [changelog page](CHANGELOG.md)
 [<img alt="Bigous" src="https://avatars.githubusercontent.com/u/6886560?v=3&s=117" width="117">](https://github.com/Bigous) |[<img alt="NathanWalker" src="https://avatars.githubusercontent.com/u/457187?v=3&s=117" width="117">](https://github.com/NathanWalker) |[<img alt="drdino" src="https://avatars.githubusercontent.com/u/2923711?v=3&s=117" width="117">](https://github.com/drdino) |[<img alt="k3nsei" src="https://avatars.githubusercontent.com/u/190422?v=3&s=117" width="117">](https://github.com/k3nsei) |[<img alt="sasidhar" src="https://avatars.githubusercontent.com/u/897339?v=3&s=117" width="117">](https://github.com/sasidhar) |
 :---: |:---: |:---: |:---: |:---: |
 [Bigous](https://github.com/Bigous) |[NathanWalker](https://github.com/NathanWalker) |[drdino](https://github.com/drdino) |[k3nsei](https://github.com/k3nsei) |[sasidhar](https://github.com/sasidhar) |
-
-
 
 ## License
 
